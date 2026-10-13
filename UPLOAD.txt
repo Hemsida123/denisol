@@ -1,0 +1,27 @@
+DENISOL — UPPLADDNING
+
+Hela den färdiga webbplatsen ligger i mappen dist. Ladda upp ALLT innehåll i dist, inte bara index.html. Bilder, stilmall, script, produktblad och undersidor behövs tillsammans.
+
+GitHub Pages:
+1. Lägg innehållet från dist i repositoryts rot.
+2. Behåll mappen assets och samtliga sidmappar.
+3. Aktivera Pages från önskad branch och rotmapp.
+Ingen installation eller byggprocess behövs för publicering.
+
+Vanligt webbhotell:
+Ladda upp dist-innehållet till webbplatsens dokumentrot. Ta först backup av den befintliga webbplatsen.
+
+VIKTIGT VID BYTE AV ORIGINALWEBBPLATSEN:
+Detta är en statisk presentationswebbplats, inte en ny WooCommerce-butik. Webbshop, bokningsformulär, originalets köpvillkor och tre tekniska PDF:er länkar fortfarande till denisol.se. Radera eller skriv inte över den befintliga butikens WordPress-filer, databaser eller formulär. Om designen ska ersätta startsidan på denisol.se behöver butik, bokning, dokument och köpvillkor behållas eller flyttas korrekt först. DIY-länken använder originalets samma sidväg; den behöver pekas om ifall den nya statiska sidan ersätter den adressen.
+
+SEO-adresserna (canonical och sitemap) är förberedda för denisol.se. Vid en annan slutlig domän behöver de uppdateras. En privat testversion bör inte skickas till Google för indexering. Ingen ranking utlovas.
+
+Kontaktknappar öppnar telefon/e-postprogram. Det finns inget nytt formulär eller backend som lagrar förfrågningar. Reco-widgeten laddas först efter besökarens klick och har en länk till Reco som reserv.
+
+Reco-siffran 4,9/5 och 123 omdömen kontrollerades 13 oktober 2026 och visas med datum. Uppdatera den statiska siffran vid behov; widgeten hämtar omdömen från Reco.
+
+Bilder kommer från denisol.se och har komprimerats till WebP. Typsnittet Figtree och licens följer med. Bilderna presenteras som illustrationer till tjänster, inte som påhittade namngivna referensprojekt.
+
+Källan för redigering är build.mjs (innehåll/HTML), dist/styles.css och dist/app.js. Kör node build.mjs efter en innehållsändring, och node check.mjs för kontroll av lokala länkar. Dessa utvecklarfiler behöver inte laddas upp.
+
+Designen har inte publicerats: den tillgängliga förhandsvisningstjänstens publiceringsgräns var nådd. Den befintliga webbplatsen är inte ändrad.
